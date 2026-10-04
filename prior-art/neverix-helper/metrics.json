@@ -1,0 +1,67 @@
+{
+  "upstream": "https://github.com/neverix/ecog-br41n-2022",
+  "commit": "4833d1787dad0f1fe047bf5fe2bc7b4a1cad4925",
+  "year": 2022,
+  "dataset": "ECoG_Handpose.mat",
+  "stack": "MNE, pyriemann, giotto-tda, scikit-learn",
+  "executed_by_us": true,
+  "window_s": [
+    1.0,
+    2.0
+  ],
+  "bad_channels": [
+    10,
+    20,
+    36
+  ],
+  "published": {
+    "source": "cell outputs in MNE Analysis*.ipynb",
+    "claimed_range": [
+      0.923,
+      0.944
+    ],
+    "caveat": "maximum over a configuration grid, selected on the same resamples it is measured on"
+  },
+  "measured": {
+    "16x3fold/PCA40+LDA": {
+      "mean": 0.7576388888888888,
+      "std": 0.06692297373533435
+    },
+    "16x3fold/PCA40+LDA+CSP": {
+      "mean": 0.7666666666666666,
+      "std": 0.06526300069150409
+    },
+    "16x3fold/logreg-C0.1": {
+      "mean": 0.7631944444444444,
+      "std": 0.06281939991891711
+    },
+    "16x3fold/logreg-C0.1+CSP": {
+      "mean": 0.7701388888888889,
+      "std": 0.06427645129717437
+    },
+    "10fold/PCA40+LDA": {
+      "mean": 0.7666666666666665,
+      "std": 0.10482201257840669
+    },
+    "10fold/PCA40+LDA+CSP": {
+      "mean": 0.7555555555555554,
+      "std": 0.11967032904743341
+    },
+    "10fold/logreg-C0.1": {
+      "mean": 0.7555555555555554,
+      "std": 0.12957670877434
+    },
+    "10fold/logreg-C0.1+CSP": {
+      "mean": 0.7777777777777777,
+      "std": 0.11111111111111109
+    }
+  },
+  "measured_range": [
+    0.7556,
+    0.7778
+  ],
+  "not_reproduced": [
+    "giotto-tda topological features"
+  ],
+  "runtime_s": 941.8
+}

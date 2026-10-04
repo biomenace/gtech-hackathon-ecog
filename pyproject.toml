@@ -1,0 +1,25 @@
+[project]
+name = "ecog-handpose-br41n"
+version = "1.0.0"
+description = "Decoding three hand gestures from a 60-channel ECoG grid — BR41N.IO, IEEE SMC 2026"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",   # also supplies joblib, used by ecog.final --jobs
+]
+
+[project.optional-dependencies]
+# Riemannian and augmented-covariance experiments, and two of the prior-art runners.
+riemannian = ["pyriemann", "mne"]
+# The EEGNet comparison only. A CPU build works; ours ran on CUDA 12.4 / PyTorch 2.6.
+deep = ["torch"]
+all = ["pyriemann", "mne", "torch"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ecog"]

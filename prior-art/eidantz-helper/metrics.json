@@ -1,0 +1,41 @@
+{
+  "upstream": "https://github.com/Eidantz/br41n.io_Hackathon_ECoG",
+  "commit": "e1b6f6aa7aa0f1a1c0635f55a9adf1f1ee1adccb",
+  "default_branch": "master",
+  "year": 2024,
+  "dataset": "ECoG_Handpose.mat",
+  "stack": "MNE, pyriemann Covariances + TSclassifier, scikit-learn",
+  "executed_by_us": true,
+  "window_s": [
+    1.0,
+    2.0
+  ],
+  "bad_channels": [
+    10,
+    20,
+    36
+  ],
+  "published": {
+    "source": "none",
+    "claimed": null
+  },
+  "measured": {
+    "gesture_1_vs_rest": {
+      "acc": 0.7333333333333333,
+      "majority_baseline": 0.6629629629629631
+    },
+    "gesture_2_vs_rest": {
+      "acc": 0.7185185185185184,
+      "majority_baseline": 0.6777777777777778
+    },
+    "gesture_3_vs_rest": {
+      "acc": 0.8666666666666666,
+      "majority_baseline": 0.6592592592592593
+    },
+    "overall_one_vs_rest": 0.7728395061728395,
+    "note": "one-vs-rest on balanced 3-class data: 0.667 is the no-skill score"
+  },
+  "gain_over_no_skill": 0.1062,
+  "fix_required": "Covariances(estimator='scm') is singular here: channels rejected before the common average reference become identical afterwards. Those rows are dropped before covariance estimation.",
+  "runtime_s": 19.3
+}

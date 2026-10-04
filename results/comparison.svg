@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1140 502" width="1140" height="502" role="img" aria-label="Three-class gesture accuracy, our pipeline against prior work" xmlns="http://www.w3.org/2000/svg">
+<line x1="568.5" y1="18" x2="568.5" y2="456.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="568.5" y="478.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">0.25</text>
+<line x1="727.0" y1="18" x2="727.0" y2="456.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="727.0" y="478.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">0.50</text>
+<line x1="885.5" y1="18" x2="885.5" y2="456.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="885.5" y="478.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">0.75</text>
+<line x1="1044.0" y1="18" x2="1044.0" y2="456.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="1044.0" y="478.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">1.00</text>
+<line x1="621.3" y1="18" x2="621.3" y2="456.0" stroke="#898781" stroke-width="1" stroke-dasharray="6 5"/>
+<text x="621.3" y="14.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle">chance</text>
+<line x1="410" y1="18" x2="410" y2="456.0" stroke="#c3c2b7" stroke-width="1"/>
+<path d="M410.0,40.0 H1021.7 a4,4 0 0 1 4,4 V58.0 a4,4 0 0 1 -4,4 H410.0 Z" fill="#2a78d6"/>
+<text x="396.0" y="51.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="600" fill="#0b0b0b" text-anchor="end">Ours, fixed pipeline</text>
+<text x="396.0" y="67.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" font-weight="400" fill="#898781" text-anchor="end">multi-window high gamma + shrinkage LDA, 50 folds</text>
+<text x="1035.7" y="56.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="600" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.971</text>
+<path d="M410.0,94.0 H1016.5 a4,4 0 0 1 4,4 V112.0 a4,4 0 0 1 -4,4 H410.0 Z" fill="#2a78d6"/>
+<text x="396.0" y="105.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="600" fill="#0b0b0b" text-anchor="end">Ours, nested CV</text>
+<text x="396.0" y="121.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" font-weight="400" fill="#898781" text-anchor="end">feature choice inside the loop, 30 outer folds</text>
+<text x="1030.5" y="110.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="600" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.963</text>
+<path d="M410.0,148.0 H955.5 a4,4 0 0 1 4,4 V166.0 a4,4 0 0 1 -4,4 H410.0 Z" fill="#898781"/>
+<text x="396.0" y="159.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">Our first version</text>
+<text x="396.0" y="175.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" font-weight="400" fill="#898781" text-anchor="end">single 1.0-2.0 s window, three bands</text>
+<text x="969.5" y="164.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.867</text>
+<path d="M410.0,202.0 H962.5 a4,4 0 0 1 4,4 V220.0 a4,4 0 0 1 -4,4 H410.0 Z" fill="#898781"/>
+<text x="396.0" y="213.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">MariaGoniIba 2022, re-run</text>
+<text x="396.0" y="229.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" font-weight="400" fill="#898781" text-anchor="end">her protocol ported to Python by us</text>
+<text x="976.5" y="218.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.878</text>
+<path d="M410.0,256.0 H920.2 a4,4 0 0 1 4,4 V274.0 a4,4 0 0 1 -4,4 H410.0 Z" fill="#898781"/>
+<text x="396.0" y="267.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">MariaGoniIba 2022, published</text>
+<text x="396.0" y="283.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" font-weight="400" fill="#898781" text-anchor="end">her own figure, MATLAB, not re-run</text>
+<text x="934.2" y="272.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.811</text>
+<path d="M410.0,310.0 H928.4 a4,4 0 0 1 4,4 V328.0 a4,4 0 0 1 -4,4 H410.0 Z" fill="#898781"/>
+<text x="396.0" y="321.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">Official baseline, TVLDA</text>
+<text x="396.0" y="337.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" font-weight="400" fill="#898781" text-anchor="end">Gruenwald et al. 2019, their S1 row</text>
+<text x="942.4" y="326.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.824</text>
+<path d="M410.0,364.0 H899.1 a4,4 0 0 1 4,4 V382.0 a4,4 0 0 1 -4,4 H410.0 Z" fill="#898781"/>
+<text x="396.0" y="375.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">neverix 2022</text>
+<text x="396.0" y="391.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" font-weight="400" fill="#898781" text-anchor="end">re-run by us on the same folds</text>
+<text x="913.1" y="380.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.778</text>
+<path d="M410.0,418.0 H896.0 a4,4 0 0 1 4,4 V436.0 a4,4 0 0 1 -4,4 H410.0 Z" fill="#898781"/>
+<text x="396.0" y="429.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">Eidantz 2024</text>
+<text x="396.0" y="445.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" font-weight="400" fill="#898781" text-anchor="end">re-run by us, one-vs-rest, no-skill is 0.667</text>
+<text x="910.0" y="434.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.773</text>
+</svg>

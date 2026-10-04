@@ -1,0 +1,26 @@
+--- a/preprocessing.m
++++ b/preprocessing.m
+@@ -20,10 +20,10 @@
+ %% CAR (common MEDIAN re-reference)
+ % Subtracting the median of all channels from each channel. 
+ % This eliminates common mode interference, such as line noise and prevents from leaking noise from noisy channels.
+-med_s = median(y_trim);
++med_s = median(y_trim);   % 1 x nSamples: median across channels, per sample
+ 
+ for i=1:size(y_trim,1)
+-    y_CAR(i,:) = y_trim(i,:) - med_s(i);
++    y_CAR(i,:) = y_trim(i,:) - med_s;   % subtract the reference SIGNAL, not med_s(i)
+ end
+ 
+ %% Notch-filter cascade 
+--- a/RF.m
++++ b/RF.m
+@@ -13,7 +13,7 @@
+     
+     classpredict = str2double(classpredict);
+     
+-    Results.Acc = length(find(classreal == classpredict)); %corregir!
++    Results.Acc = length(find(classreal == classpredict)) / numel(classreal);
+     Results.TP = length(find(classreal==1 & classpredict==1));
+     Results.TN = length(find(classreal==0 & classpredict==0));
+     Results.FP = length(find(classreal==0 & classpredict==1));

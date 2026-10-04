@@ -1,0 +1,29 @@
+<svg viewBox="0 0 560 520.0" width="560" height="520.0" role="img" aria-label="Confusion matrix of the final pipeline over fifty folds" xmlns="http://www.w3.org/2000/svg">
+<text x="132.0" y="28.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" font-weight="400" fill="#52514e" text-anchor="start">predicted</text>
+<text x="199.3" y="50.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="14" font-weight="400" fill="#52514e" text-anchor="middle">fist</text>
+<text x="334.0" y="50.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="14" font-weight="400" fill="#52514e" text-anchor="middle">peace</text>
+<text x="468.7" y="50.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="14" font-weight="400" fill="#52514e" text-anchor="middle">open</text>
+<text x="20.0" y="266.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" font-weight="400" fill="#52514e" text-anchor="start">true</text>
+<text x="118.0" y="136.3" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="end">fist</text>
+<rect x="133.0" y="65.0" width="132.7" height="132.7" rx="4" fill="#0d366b"/>
+<text x="199.3" y="138.3" font-family='ui-monospace, "Roboto Mono", monospace' font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric:tabular-nums">144</text>
+<rect x="267.7" y="65.0" width="132.7" height="132.7" rx="4" fill="#cde2fb"/>
+<text x="334.0" y="138.3" font-family='ui-monospace, "Roboto Mono", monospace' font-size="20" font-weight="600" fill="#0b0b0b" text-anchor="middle" style="font-variant-numeric:tabular-nums">6</text>
+<rect x="402.3" y="65.0" width="132.7" height="132.7" rx="4" fill="#cde2fb"/>
+<text x="468.7" y="138.3" font-family='ui-monospace, "Roboto Mono", monospace' font-size="20" font-weight="600" fill="#0b0b0b" text-anchor="middle" style="font-variant-numeric:tabular-nums">0</text>
+<text x="118.0" y="271.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="end">peace</text>
+<rect x="133.0" y="199.7" width="132.7" height="132.7" rx="4" fill="#cde2fb"/>
+<text x="199.3" y="273.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="20" font-weight="600" fill="#0b0b0b" text-anchor="middle" style="font-variant-numeric:tabular-nums">2</text>
+<rect x="267.7" y="199.7" width="132.7" height="132.7" rx="4" fill="#0d366b"/>
+<text x="334.0" y="273.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric:tabular-nums">148</text>
+<rect x="402.3" y="199.7" width="132.7" height="132.7" rx="4" fill="#cde2fb"/>
+<text x="468.7" y="273.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="20" font-weight="600" fill="#0b0b0b" text-anchor="middle" style="font-variant-numeric:tabular-nums">0</text>
+<text x="118.0" y="405.7" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="14" font-weight="400" fill="#0b0b0b" text-anchor="end">open</text>
+<rect x="133.0" y="334.3" width="132.7" height="132.7" rx="4" fill="#cde2fb"/>
+<text x="199.3" y="407.7" font-family='ui-monospace, "Roboto Mono", monospace' font-size="20" font-weight="600" fill="#0b0b0b" text-anchor="middle" style="font-variant-numeric:tabular-nums">0</text>
+<rect x="267.7" y="334.3" width="132.7" height="132.7" rx="4" fill="#cde2fb"/>
+<text x="334.0" y="407.7" font-family='ui-monospace, "Roboto Mono", monospace' font-size="20" font-weight="600" fill="#0b0b0b" text-anchor="middle" style="font-variant-numeric:tabular-nums">5</text>
+<rect x="402.3" y="334.3" width="132.7" height="132.7" rx="4" fill="#0d366b"/>
+<text x="468.7" y="407.7" font-family='ui-monospace, "Roboto Mono", monospace' font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric:tabular-nums">145</text>
+<text x="132.0" y="502.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" font-weight="400" fill="#898781" text-anchor="start">450 test predictions, 50 folds</text>
+</svg>

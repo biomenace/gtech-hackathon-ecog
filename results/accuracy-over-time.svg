@@ -1,0 +1,32 @@
+<svg viewBox="0 0 980 470" width="980" height="470" role="img" aria-label="Decoding accuracy of a sliding 500 ms window against time from cue onset" xmlns="http://www.w3.org/2000/svg">
+<rect x="313.2" y="40" width="209.9" height="374" fill="#2a78d6" opacity="0.10"/>
+<rect x="523.1" y="40" width="262.4" height="374" fill="#898781" opacity="0.10"/>
+<line x1="64" y1="339.2" x2="956" y2="339.2" stroke="#e1e0d9" stroke-width="1"/>
+<text x="52.0" y="344.2" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">0.2</text>
+<line x1="64" y1="264.4" x2="956" y2="264.4" stroke="#e1e0d9" stroke-width="1"/>
+<text x="52.0" y="269.4" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">0.4</text>
+<line x1="64" y1="189.6" x2="956" y2="189.6" stroke="#e1e0d9" stroke-width="1"/>
+<text x="52.0" y="194.6" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">0.6</text>
+<line x1="64" y1="114.8" x2="956" y2="114.8" stroke="#e1e0d9" stroke-width="1"/>
+<text x="52.0" y="119.8" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">0.8</text>
+<line x1="64" y1="40.0" x2="956" y2="40.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="52.0" y="45.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">1.0</text>
+<line x1="64" y1="289.3" x2="956" y2="289.3" stroke="#898781" stroke-width="1" stroke-dasharray="6 5"/>
+<text x="952.0" y="280.3" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" font-weight="400" fill="#52514e" text-anchor="end">chance 0.33</text>
+<line x1="260.8" y1="40" x2="260.8" y2="414" stroke="#c3c2b7" stroke-width="1"/>
+<text x="266.8" y="54.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" font-weight="400" fill="#52514e" text-anchor="start">cue</text>
+<line x1="64" y1="414" x2="956" y2="414" stroke="#c3c2b7" stroke-width="1"/>
+<text x="129.6" y="436.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">-0.5</text>
+<text x="260.8" y="436.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">0.0</text>
+<text x="391.9" y="436.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">0.5</text>
+<text x="523.1" y="436.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">1.0</text>
+<text x="654.3" y="436.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">1.5</text>
+<text x="785.5" y="436.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">2.0</text>
+<text x="916.6" y="436.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">2.5</text>
+<text x="510.0" y="460.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="14" font-weight="400" fill="#52514e" text-anchor="middle">time from cue onset, seconds</text>
+<path d="M64.0,318.4 L90.2,326.7 L116.5,264.4 L142.7,264.4 L168.9,281.0 L195.2,281.0 L221.4,276.9 L247.6,322.6 L273.9,264.4 L300.1,168.8 L326.4,106.5 L352.6,102.3 L378.8,77.4 L405.1,60.8 L431.3,73.2 L457.5,56.6 L483.8,81.6 L510.0,69.1 L536.2,73.2 L562.5,94.0 L588.7,110.6 L614.9,123.1 L641.2,127.3 L667.4,110.6 L693.6,110.6 L719.9,135.6 L746.1,156.4 L772.4,189.6 L798.6,148.0 L824.8,148.0 L851.1,102.3 L877.3,85.7 L903.5,85.7 L929.8,114.8 L956.0,110.6" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="457.5" cy="56.6" r="6" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="471.5" y="50.6" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="600" fill="#0b0b0b" text-anchor="start">0.956 at 0.75 s</text>
+<text x="321.2" y="402.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" font-weight="400" fill="#52514e" text-anchor="start">the window we use: 0.2-1.0 s</text>
+<text x="531.1" y="58.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="13" font-weight="400" fill="#52514e" text-anchor="start">the window version one used: 1.0-2.0 s</text>
+</svg>

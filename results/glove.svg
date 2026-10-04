@@ -1,0 +1,32 @@
+<svg viewBox="0 0 760 342" width="760" height="342" role="img" aria-label="Per-finger correlation between predicted and measured glove flexion" xmlns="http://www.w3.org/2000/svg">
+<line x1="255.0" y1="14" x2="255.0" y2="280.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="255.0" y="302.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">0.25</text>
+<line x1="400.0" y1="14" x2="400.0" y2="280.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="400.0" y="302.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">0.50</text>
+<line x1="545.0" y1="14" x2="545.0" y2="280.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="545.0" y="302.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">0.75</text>
+<line x1="690.0" y1="14" x2="690.0" y2="280.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="690.0" y="302.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="13" font-weight="400" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">1.00</text>
+<line x1="110" y1="14" x2="110" y2="280.0" stroke="#c3c2b7" stroke-width="1"/>
+<path d="M381.1,39.0 V53.0 M381.1,46.0 H623.6 M623.6,39.0 V53.0" stroke="#52514e" stroke-width="1.5" fill="none"/>
+<circle cx="502.3" cy="46.0" r="7" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="96.0" y="51.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">thumb</text>
+<text x="637.6" y="51.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.68</text>
+<path d="M262.6,91.0 V105.0 M262.6,98.0 H618.9 M618.9,91.0 V105.0" stroke="#52514e" stroke-width="1.5" fill="none"/>
+<circle cx="440.8" cy="98.0" r="7" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="96.0" y="103.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">index</text>
+<text x="632.9" y="103.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.57</text>
+<path d="M276.1,143.0 V157.0 M276.1,150.0 H601.9 M601.9,143.0 V157.0" stroke="#52514e" stroke-width="1.5" fill="none"/>
+<circle cx="439.0" cy="150.0" r="7" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="96.0" y="155.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">middle</text>
+<text x="615.9" y="155.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.57</text>
+<path d="M442.4,195.0 V209.0 M442.4,202.0 H593.7 M593.7,195.0 V209.0" stroke="#52514e" stroke-width="1.5" fill="none"/>
+<circle cx="518.0" cy="202.0" r="7" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="96.0" y="207.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">ring</text>
+<text x="607.7" y="207.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.70</text>
+<path d="M260.3,247.0 V261.0 M260.3,254.0 H550.3 M550.3,247.0 V261.0" stroke="#52514e" stroke-width="1.5" fill="none"/>
+<circle cx="405.3" cy="254.0" r="7" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="96.0" y="259.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="15" font-weight="400" fill="#52514e" text-anchor="end">little</text>
+<text x="564.3" y="259.0" font-family='ui-monospace, "Roboto Mono", monospace' font-size="15" font-weight="400" fill="#0b0b0b" text-anchor="start" style="font-variant-numeric:tabular-nums">0.51</text>
+<text x="110.0" y="334.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12.5" font-weight="400" fill="#898781" text-anchor="start">Pearson r, ten-fold; whiskers are one standard deviation across folds</text>
+</svg>

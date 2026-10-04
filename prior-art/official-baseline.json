@@ -1,0 +1,55 @@
+{
+  "source": "Table 4, Gruenwald et al. 2019",
+  "transcribed_from_pdf": true,
+  "note": "Quoted from the paper that ships with the dataset, not measured by us. Hand.pdf travels inside the official archive and the paper is open access.",
+  "paper": {
+    "title": "Time-Variant Linear Discriminant Analysis Improves Hand Gesture and Finger Movement Decoding for Invasive Brain-Computer Interfaces",
+    "authors": ["Johannes Gruenwald", "Andrei Znobishchev", "Christoph Kapeller",
+                "Kyousuke Kamada", "Josef Scharinger", "Christoph Guger"],
+    "venue": "Frontiers in Neuroscience 13:901",
+    "year": 2019,
+    "doi": "10.3389/fnins.2019.00901",
+    "url": "https://doi.org/10.3389/fnins.2019.00901"
+  },
+  "dataset": {
+    "archive": "https://www.gtec.at/downloads_QyTs23/Hackathon/ecog-hand-pose.rar",
+    "index": "https://github.com/unicorn-bi/Hackathon",
+    "file": "ECoG_Handpose.mat",
+    "bytes": 123246843,
+    "sha256": "b2b65f0f040ee9663c523801d92ba7e685d2ade94a2c1592c9975320966fab60",
+    "paradigm": "rock-paper-scissors: a photograph of the gesture is shown for 2 s, then a black screen for 2-3 s",
+    "trials_per_class": 30,
+    "sampling_rate_hz": 1200
+  },
+  "subject_identification": {
+    "subject": "S1",
+    "protocol": "RPS",
+    "grid": "Macro",
+    "basis": [
+      "30 trials per class, which among the paper's rock-paper-scissors subjects is unique to S1 (S2 has 40, S5 has 76, S6 has 60)",
+      "right hemisphere, which matches S1, S2, S5 and S6",
+      "a standard-spacing grid, which matches S1 and S6"
+    ],
+    "caveat": "The archive does not name the subject. The paper selected 20 of S1's 98 electrodes while the released file carries 60 channels, so the paper's input and ours are not identical even if the subject is."
+  },
+  "accuracies_on_S1_rps": {
+    "protocol": "20 repetitions of a randomised 10x10 cross-validation",
+    "no_whitening": {
+      "LDA+CSP": {"acc": 0.638, "std": 0.030, "n_features": 2},
+      "LDA+channel_selection": {"acc": 0.522, "std": 0.031, "n_features": 4},
+      "rLDA_vectorised": {"acc": 0.688, "std": 0.025}
+    },
+    "whitened": {
+      "LDA+CSP": {"acc": 0.738, "std": 0.020, "n_features": 1},
+      "LDA+channel_selection": {"acc": 0.691, "std": 0.009, "n_features": 1},
+      "rLDA+PCA": {"acc": 0.654, "std": 0.015, "n_features": 1},
+      "TVLDA+PCA": {"acc": 0.824, "std": 0.020, "n_features": 1}
+    },
+    "best": {"method": "TVLDA+PCA, whitened", "acc": 0.824, "std": 0.020}
+  },
+  "headline_across_all_subjects": {
+    "three_gestures_tvlda": 0.99,
+    "five_finger_tvlda": 0.96,
+    "note": "The paper's abstract figures are averages over its high-density (Micro) grid subjects, not over S1. The relevant row for this recording is the Macro one above."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "upstream": "https://github.com/bkowshik/br41n-ecog-hand-pose",
+  "commit": "41ad6d2de0cac7038b3a1ee6f6c899e79ff10cce",
+  "year": 2026,
+  "dataset": "ECoG_Handpose.mat",
+  "stack": "nbdev, MNE, scikit-learn, PyTorch (EEGNet), Ridge",
+  "executed_by_us": false,
+  "why_not_executed": "there is nothing to execute: no code cell carries an output, and the benchmark cells are marked '#| eval: false'",
+  "published": {
+    "source": "none",
+    "claimed": null,
+    "note": "the repository holds no accuracy, correlation or confusion matrix"
+  },
+  "notebook_audit": {
+    "code_cells": 84,
+    "eval_false": 26,
+    "cells_with_output": 0,
+    "per_notebook": {
+      "01_data_loading.ipynb": {
+        "code_cells": 9,
+        "eval_false": 1,
+        "with_output": 0
+      },
+      "02_eda.ipynb": {
+        "code_cells": 7,
+        "eval_false": 6,
+        "with_output": 0
+      },
+      "03_preprocessing.ipynb": {
+        "code_cells": 13,
+        "eval_false": 3,
+        "with_output": 0
+      },
+      "04_epoching.ipynb": {
+        "code_cells": 10,
+        "eval_false": 2,
+        "with_output": 0
+      },
+      "05_features.ipynb": {
+        "code_cells": 11,
+        "eval_false": 2,
+        "with_output": 0
+      },
+      "06_classification.ipynb": {
+        "code_cells": 10,
+        "eval_false": 3,
+        "with_output": 0
+      },
+      "07_deep_learning.ipynb": {
+        "code_cells": 9,
+        "eval_false": 2,
+        "with_output": 0
+      },
+      "08_finger_regression.ipynb": {
+        "code_cells": 10,
+        "eval_false": 3,
+        "with_output": 0
+      },
+      "09_benchmark.ipynb": {
+        "code_cells": 5,
+        "eval_false": 4,
+        "with_output": 0
+      },
+      "99_acronyms.ipynb": {
+        "code_cells": 0,
+        "eval_false": 0,
+        "with_output": 0
+      },
+      "index.ipynb": {
+        "code_cells": 0,
+        "eval_false": 0,
+        "with_output": 0
+      }
+    }
+  },
+  "value_to_us": {
+    "dataset_source": {
+      "path_in_clone": "data/ECoG_Handpose.mat",
+      "transport": "git-lfs",
+      "fetch": "../../fetch_dataset.sh --local",
+      "note": "the fallback source. The official g.tec archive is the primary one, and the Google Drive link in the Eidantz repository no longer serves the file",
+      "bytes": 123246843,
+      "sha256": "b2b65f0f040ee9663c523801d92ba7e685d2ade94a2c1592c9975320966fab60"
+    },
+    "literature_ranges": {
+      "source": "nbs/09_benchmark.ipynb",
+      "verified_verbatim": true,
+      "ecog_high_gamma_lda": [
+        0.8,
+        0.95
+      ],
+      "eegnet_4class_eeg": [
+        0.65,
+        0.75
+      ],
+      "shallowconvnet_ecog": [
+        0.8,
+        0.92
+      ],
+      "riemannian": [
+        0.8,
+        0.9
+      ],
+      "finger_regression_linear_r": [
+        0.45,
+        0.6
+      ],
+      "finger_regression_deep_cnn_r": [
+        0.55,
+        0.7
+      ],
+      "citations": [
+        "Liang & Bougrain 2012",
+        "Xie 2018"
+      ]
+    }
+  },
+  "unused_modules": {
+    "regression.py": "Ridge on the glove channels, written but never executed, so continuous finger flexion on this recording had not been attempted before us"
+  },
+  "runtime_s": 0.2
+}
